@@ -29,7 +29,7 @@ Please join us in further developing and improving caAdapter.
 
 caAdapter is developed in Java and requires Apache Ant for building. 
 
-# caAdapter Core Components
+## caAdapter Core Components
 
 * CSV to HL7 v3 Mapping and Transformation Service
 * caAdapter Web Service
@@ -54,4 +54,3 @@ caAdapter is developed in Java and requires Apache Ant for building.
 # Licensing
 
 caAdapter is distributed under the BSD 3-Clause License. Please see the NOTICE and LICENSE files for details.
-
