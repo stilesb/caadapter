@@ -22,6 +22,8 @@ Please join us in further developing and improving caAdapter.
 
 ## caAdapter Core Components
 
+The following services make up the application core.
+
 * CSV to HL7 v3 Mapping and Transformation Service
 * caAdapter Web Service
 * Model Mapping Service
