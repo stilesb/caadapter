@@ -20,16 +20,9 @@ An NCI hosted instance of caAdapter is publicly available at:
  
 Please join us in further developing and improving caAdapter.
 
-# Setup
-
-## Requirements
-
-* Docker (Engine and Compose) or
-* Java and Apache Ant
-
-caAdapter is developed in Java and requires Apache Ant for building. 
-
 ## caAdapter Core Components
+
+The follow services make up the application core.
 
 * CSV to HL7 v3 Mapping and Transformation Service
 * caAdapter Web Service
@@ -50,6 +43,22 @@ caAdapter is developed in Java and requires Apache Ant for building.
 * Needs a domain expert to properly convert from v2 to v3
 * Display of mapped elements does not fit on the screen (minor issue). It is difficult to navigate the links between source and destination elements
 * Not web enabled – uses Java Swing
+
+# Setup
+
+## Requirements
+
+* Docker (Engine and Compose)
+
+Or...
+
+* Java and Apache Ant
+
+caAdapter is developed in Java and requires Apache Ant for building. 
+
+## Building and Running (via Docker)
+
+To build and run the project via Docker simply execute `./deployment/bin/compose.sh build` followed by `./deployment/bin/compose.sh run`.
 
 # Licensing
 
